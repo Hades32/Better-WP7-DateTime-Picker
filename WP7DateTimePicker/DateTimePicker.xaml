@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="WP7DateTimePicker.DateTimePicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="80" d:DesignWidth="480">
+    <!--<Grid Background="Black">-->
+        <Button Click="Button_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <ContentPresenter/>
+                </ControlTemplate>
+            </Button.Template>
+            <Grid Background="{StaticResource PhoneRadioCheckBoxBrush}"
+              Margin="20,10"
+              Height="50"
+              VerticalAlignment="Center">
+                <TextBlock Name="Text" 
+                       FontSize="{StaticResource PhoneFontSizeMediumLarge}"
+                       Foreground="{StaticResource PhoneTextBoxForegroundBrush}"
+                       VerticalAlignment="Center"
+                       Margin="10,0">
+                22.10.2011 12:45 pm
+                </TextBlock>
+            </Grid>
+        </Button>
+    <!--</Grid>-->
+</UserControl>
